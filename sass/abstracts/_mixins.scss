@@ -28,6 +28,10 @@
   - tab-port
   - tab-land
   - bid-desktop
+
+  ORDER: Base + typography > general layout + grid > page layout > components
+
+  1em = 16px
  */
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
